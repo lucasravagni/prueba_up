@@ -1,0 +1,141 @@
+body{ 
+    overflow-y:hidden;
+    overflow-x:hidden;
+    font-size: 130%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+     }
+footer {
+
+        display: flex;
+        position: relative;
+        top:770px;
+        bottom:5px;
+        right:;
+        left: 0px;
+        text-align: center;
+      max-width: 2000px;
+      min-height: 65px;
+      background:#2ed573;
+      margin:0 auto;
+      border-radius: 0 0 20px 20px;
+      font-size: 15px;
+       }
+
+
+     .boton1 {
+        background: url('../img/boton1.jpg') center;
+        background-size: 100% 100%;
+        cursor:pointer;
+        padding: 100px 100px;
+       }
+        .boton1 {
+        display: flex;
+        position: relative;
+        top:;
+        bottom:620px;
+        right:;
+        left: 500px;
+       }
+       .juguetes {
+         display: flex;
+        position: relative;
+        top:;
+        bottom:1020px;
+        right:;
+        left: 535px;
+       }
+     .boton2 {
+        background: url('../img/boton2.jpg') center;
+        background-size: 100% 100%;
+        cursor:pointer;
+        padding: 100px 70px;
+     }
+       .boton2 {
+        display: flex;
+        position: relative;
+        top:;
+        bottom:830px;
+        right:;
+        left: 900px;
+       }
+       .libros {
+        display: flex;
+        position: relative;
+        top:;
+        bottom:1045px;
+        right:;
+        left: 930px;
+       }
+       .boton3 {
+        background: url('../img/boton3.jpg') center;
+        background-size: 100% 100%;
+        cursor:pointer;
+        padding: 100px 100px;
+     }
+       .boton3 {
+        display: flex;
+        position: relative;
+        top:;
+        bottom:1025px;
+        right:;
+        left: 1245px;
+       }
+       .disfraces {
+        display: flex;
+        position: relative;
+        top:;
+        bottom:1070px;
+        right:;
+        left: 1280px;
+       }
+     .pagina {
+display: flex;
+justify-content: center;
+}
+
+
+
+     header{ 
+         width: 100%;
+         background: #44bd32;
+}
+    header label {  
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 2px solid #fff;
+    }
+    header label:hover  { 
+        cursor: pointer;
+        background: rgb(0,0,0,0.3);
+    }  
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+} 
+.menu li {
+    border-right: 20px solid #44bd32;
+}  
+.menu li a{
+display: block;
+padding: 15px 20px;
+color: #000000;
+text-decoration: none;
+}           
+
+   
+
+    }
+    .main{
+        background-image: url(https://www.coflex.es/images/servicios/New-Arcobaleno-2601.jpg);
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+        

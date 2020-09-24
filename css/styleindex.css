@@ -1,0 +1,96 @@
+body{ 
+    overflow-y:hidden;
+    overflow-x:hidden;
+    font-size: 130%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    letter-spacing: 0.15em;
+     }
+     .pagina {
+display: flex;
+justify-content: center;
+}
+     header{ 
+         width: 100%;
+         background: #44bd32;
+}
+    header label {  
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 2px solid #fff;
+    }
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+} 
+.menu li {
+    border-right: 20px solid #44bd32;
+}  
+.menu li a{
+display: block;
+padding: 15px 20px;
+color: #000000;
+} 
+    }
+    p{
+        color:#2d3436 ;
+        font-family: 'Comic Sans MS', cursive, sans-serif;      
+    }
+    .main{
+        background-image: url(https://www.coflex.es/images/servicios/New-Arcobaleno-2601.jpg);
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+    }     
+ h1{ 
+     text-align: center;
+     width: 600px;
+     margin: 20px auto 20px auto;
+     font-weight: normal;
+     }
+ p{ 
+     text-align: center;
+     width: 600px;
+     margin: 20px auto 20px auto;
+     font-weight: normal;
+     }
+          .imagenderecha {
+display: flex;
+position: relative;
+top:;
+bottom:1px;
+right:;
+left: 1340px;
+}
+           .imagenizquierda {
+display: flex;
+position: relative;
+top:;
+bottom:245px;
+right:;
+left: 90px;
+}
+            .imagenprincipal {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 55%;
+}
+            .imagenprincipal {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 55%;
+}
+
+a{ 
+    color: #f5f5ff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px  18px  5px  18px;
+     }
+

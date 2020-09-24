@@ -1,0 +1,203 @@
+body{ 
+    overflow-y:hidden;
+    overflow-x:hidden;
+    font-size: 130%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    letter-spacing: 0.15em;
+     }
+    .pagina{
+display: flex;
+position: relative;
+top:;
+bottom:8px;
+right:;
+left: 800px;
+
+}
+     header{ 
+         width: 100%;
+         background: #44bd32;
+}
+    header label {  
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 2px solid #fff;
+    }
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+} 
+.menu li {
+    border-right: 20px solid #44bd32;
+}  
+.menu li a{
+display: block;
+padding: 15px 20px;
+color: #000000;
+} 
+@media (max-width: 768px){
+    header  label{ 
+        display: block;
+    }
+.menu{ 
+    position: absolute;
+    background: #4e94a8;
+    width: 70%;
+    margin-left: -80%;
+    transition: all 0.5s;
+}
+.menu ul {
+flex-direction: column;
+}
+.menu li { 
+    border-top: 1px solid #fff;
+}
+#btn-menu:checked ~ .menu{ 
+    margin: 0;
+
+} 
+     }
+     form {
+    width: 400px;
+    margin-left: 450px;
+    background: rgba(0, 0, 0, 1);
+    padding: 16px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 7px;
+    }
+
+    h2 {
+        color: #4cd137;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+    textarea {
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+
+    #boton {
+        background: #44bd32;
+        color: bisque;
+        padding: 20px;
+    }
+
+
+    input, textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+    }
+    
+    
+    p{
+        color: #4cd137;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        
+    }
+    
+    .main{
+        background-image: url(https://image.freepik.com/foto-gratis/bokeh-blanco-sobre-fondo-verde_36860-76.jpg);
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+
+    }
+    
+     .pagina {
+        max-width: 900px;
+        min-width: 570px;
+      
+        display: inline-block;
+        vertical-align: middle;
+       
+         }
+         
+         .logo{  
+             width: 150px;
+             margin: 10px auto 25px 
+             auto;
+             display: inline-block;
+             width: 100%;
+             vertical-align: middle
+             
+
+             }
+
+              .imagencentral {
+              display: flex;
+              position: relative;
+              top:;
+              bottom:395px;
+              right:;
+              left: 0px;
+}
+
+              .rex {
+              display: flex;
+              position: relative;
+              top:;
+              bottom:845px;
+              right:;
+              left: 1400px;
+                 }
+
+              .mapa {
+              display: flex;
+              position: relative;
+              top:;
+              bottom:1450px;
+              right:;
+              left: 880px;
+
+              }    
+
+ p{ 
+     text-align: center;
+     width: 600px;
+     margin: 20px auto 20px auto;
+     font-weight: normal;
+     } 
+     
+a{ 
+    color: #f5f5ff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px  18px  5px  18px;
+     }
+
+     footer {
+
+        display: flex;
+        position: relative;
+        top:220px;
+        bottom:5px;
+        right:;
+        left: 0px;
+        text-align: center;
+      max-width: 2000px;
+      min-height: 65px;
+      background:#2ed573;
+      margin:0 auto;
+      border-radius: 0 0 20px 20px;
+      font-size: 15px;
+
+  }
+      
+
+a:hover,a.actual{ 
+    color: #3cc9d3;
+     }
